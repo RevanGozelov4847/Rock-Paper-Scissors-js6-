@@ -1,0 +1,75 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px auto;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #972424;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#game-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.player-move {
+  font-size: 24px;
+  text-align: center;
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#result {
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+#overallScore {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}/*# sourceMappingURL=style.css.map */
